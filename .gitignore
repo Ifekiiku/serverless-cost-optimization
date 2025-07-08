@@ -1,0 +1,31 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+.venv/
+env/
+venv/
+
+# Logs and reports
+*.log
+*.json
+report-*.json
+
+# Secrets / Environment files
+.env
+*.pem
+*.key
+
+# OS or editor folders
+.DS_Store
+.vscode/
+.idea/
+
+# AWS credentials (never commit)
+.aws/
+
+# Unit test output
+*.coverage
+*.pytest_cache/

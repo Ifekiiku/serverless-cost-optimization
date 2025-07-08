@@ -1,0 +1,23 @@
+Subject: AWS Cost Optimization Report
+
+AWS Cost Optimization Advisor has detected the following resources incurring avoidable costs:
+
+---
+
+[Cost] Amazon EC2 - $3.78 on 2025-07-06  
+[Cost] Amazon RDS - $2.45 on 2025-07-06  
+
+[Idle EC2] i-0abcdef1234567890  
+↳ Average CPU: 1.67% (last 3 days)
+
+[Unused EBS] vol-0123456789abcdef0  
+↳ Size: 50 GB (unattached)
+
+---
+
+💡 Action Tips:
+- Consider stopping or right-sizing idle EC2 instances
+- Delete or snapshot & archive unattached volumes
+- Review services with daily spend > $1
+
+This report is auto-generated daily by your AWS Lambda-powered Cost Optimization system.
