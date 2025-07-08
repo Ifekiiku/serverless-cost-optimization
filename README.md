@@ -5,7 +5,12 @@ This repository contains a fully serverless, automated solution for detecting an
 ---
 
 ## Architecture Overview
-![Architecture Diagram](/workspaces/serverless-cost-optimization/cost-optimization.drawio.png)
+![Architecture Diagram](/workspaces/serverless-cost-optimization/docs/cost-optimization.drawio.png)
+
+This diagram shows the scheduled Lambda function scanning AWS costs daily,
+sending alerts via SNS, and saving reports to S3.
+
+---
 
 ## 🚀 What This Project Does
 - 📉 Detects daily AWS service spend using Cost Explorer
